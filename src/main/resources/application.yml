@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: flashseat-backend
+
+  data:
+    mongodb:
+      uri: mongodb+srv://root:root@collegebus.ifixgn9.mongodb.net/flashseat?retryWrites=true&w=majority
+      auto-index-creation: true
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    com.flashseat: DEBUG
+    org.mongodb.driver: INFO
