@@ -1,5 +1,5 @@
-# Use OpenJDK 21 (your Java version)
-FROM openjdk:21-jdk-slim
+# Use Eclipse Temurin OpenJDK 21 (stable for Render)
+FROM eclipse-temurin:21-jdk
 
 # Set working directory
 WORKDIR /app
